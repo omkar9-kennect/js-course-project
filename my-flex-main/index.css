@@ -1,0 +1,145 @@
+.container1{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.middle1 .inner-middle11{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                
+                
+             
+}
+
+.middle1 .inner-middle12{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+    
+}
+.middle2 .inner-middle21{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+}
+.middle2 .inner-middle22{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.container3{
+    display: flex;
+   justify-content: space-between;
+}
+.box{
+    height:70px;
+    width:70px;
+    margin: 5px;
+    
+}
+#c1{
+    background-color: blue;
+   
+}
+#c2{
+    background-color: yellow;
+  
+    
+}
+#c3{
+    background-color:rgb(208, 84, 191);
+    
+}
+#c4{
+    background-color:skyblue;
+    
+}
+#c5{
+    background-color: red;
+    
+    
+}
+#c6{
+    background-color: rgb(52, 52, 2);
+    
+}
+#c7{
+background-color: rgb(240, 115, 70);
+
+}
+#c8{
+    background-color: rgb(216, 0, 0);
+}
+#c9{
+   background-color:crimson;
+}
+
+#c11{
+    background-color: rgb(245, 177, 7);
+}
+
+
+#c10{
+    background-color: rgb(255, 64, 0);
+}
+#c12{
+    background-color:black;
+}
+
+@media (max-width:760px){
+   
+   .parent{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
